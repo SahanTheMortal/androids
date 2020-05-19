@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:textColor="#3300CC"
+        android:textSize="30sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="Set Alarm"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="Cancel"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:gravity="center"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"/>
+</LinearLayout>

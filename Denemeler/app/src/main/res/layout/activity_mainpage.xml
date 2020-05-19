@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="1-SEND AN E-MAIL"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="2-LIST ALL USERS"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="350dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="3-USER SETTINGS"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="4-Note Book"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="5-SENSORS"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="6-Call Logs"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="7-Send Location"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:text="8-Set Alarm"
+        android:textColor="#3300CC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

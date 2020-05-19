@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.denemeler">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.sensor.accelerometer"
+        android:required="true"/>
+    <uses-feature android:name="android.database"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name=".MyPhoneReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".AlarmReceiver"></receiver>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.denemeler.SignUp"
+            android:label="@string/sıgnup">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.MainPage"
+            android:label="@string/mainpage">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.SendMail"
+            android:label="@string/sendmail">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.ListUsers"
+            android:label="User List">
+        </activity>
+
+        <activity
+            android:name="com.example.denemeler.Settings"
+            android:label="Settings">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.Sensors"
+            android:label="Sensors">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.ListCalls"
+            android:label="Call Logs">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.SendLocation"
+            android:label="Send Location">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.SetAlarm"
+            android:label="Send Location">
+        </activity>
+        <activity
+            android:name="com.example.denemeler.MyProgressBar"
+            android:label="Send Location">
+        </activity>
+
+    </application>
+
+</manifest>

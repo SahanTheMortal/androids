@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="sıgnup">Sign Up</string>
+    <string name="mainpage">Main Page</string>
+    <string name="sendmail">Send An E-Mail</string>
+    <string name="hello">Hello</string>
+    <string name="hi">@string/hello</string>
+    <string name="oguzhan">Merhaba benim adım Oguzhan Arslan</string>
+    <string name="bas">Butona basınız</string>
+    <string name="Login">Login</string>
+    <string name="Cancel">Cancel</string>
+    <string name="coordinates">Coordinates:</string>
+    <string name="request_lcation">Request Lcation</string>
+    <string name="send_location">Send Location</string>
+</resources>
